@@ -938,6 +938,12 @@ img{
 }
 
 @media screen and (max-width:1026px){
+     .about__title-whatsapp-smallscreen{
+        display: block;
+    }
+    .about__title-telegram-smallscreen{
+        display: block;
+    }
    
 }
 
