@@ -173,7 +173,7 @@ img{
 .about__title-telegram{
     display: none;
     color: var(--bw-black-3, #343A40);
-    
+    background: url('../img/teleg.svg') no-repeat left center;
     /* BUTTON/Regular 18-150% */
     font-family: Inter;
     font-size: 18px;
@@ -203,7 +203,7 @@ img{
 .about__title-telegram-smallscreen{
     display: none;
     color: var(--bw-black-3, #343A40);
-    background: url('../img/teleg.svg') no-repeat left center;
+    
     /* BUTTON/Regular 18-150% */
     font-family: Inter;
     font-size: 18px;
