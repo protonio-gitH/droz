@@ -169,17 +169,7 @@ img{
     margin-right: 32px;
     
 }
-/*.about__title-whatsapp::before{
-    content: "";
-    background: url('../img/whats.svg') 0 0 no-repeat;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-}
-*/
+
 .about__title-telegram{
     display: none;
     color: var(--bw-black-3, #343A40);
@@ -226,19 +216,7 @@ img{
 }
 
 
-/*.about__title-telegram::before{
-    content: "";
-    background: url('../img/teleg.svg') 0 0 no-repeat;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    
 
-    
-}
-*/
 .about__media{
     display: flex;
     
