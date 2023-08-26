@@ -189,7 +189,7 @@ img{
 .about__title-whatsapp-smallscreen{
     display: none;
     color: var(--bw-black-3, #343A40);
-    background: url('../img/whats.svg') no-repeat left center;
+    
     /* BUTTON/Regular 18-150% */
     font-family: Inter;
     font-size: 18px;
@@ -199,12 +199,12 @@ img{
     letter-spacing: 0.36px;
     text-transform: uppercase;
     padding: 0 0 0 30px;
-    margin-right: 32px;
+    
 }
 .about__title-telegram-smallscreen{
     display: none;
     color: var(--bw-black-3, #343A40);
-    background: url('../img/teleg.svg') no-repeat left center;
+    
     /* BUTTON/Regular 18-150% */
     font-family: Inter;
     font-size: 18px;
@@ -939,12 +939,13 @@ img{
 }
 
 @media screen and (max-width:1026px){
-    .about__title-whatsapp-smallscreen{
+     .about__title-whatsapp-smallscreen{
         display: block;
     }
     .about__title-telegram-smallscreen{
         display: block;
     }
+   
 }
 
 .company__photo{
