@@ -12,17 +12,7 @@
     })
 }())
 
-(function(){
-    const header = document.querySelector('.header')
-    window.onscroll = () =>{
-        if(window.pageYOffset>50){
-            header.classList.add('header__acitve')
-        }
-        else{
-            header.classList.remove('header__acitve')
-        }
-    }
-}())
+
 
 
 const modal = document.getElementById('modal')
@@ -32,6 +22,7 @@ var modalImg =  document.getElementById('img01')
 img.onclick = function(){
     modal.style.display='block'
     modalImg.src = this.src
+    
 }
 
 var span = document.getElementsByClassName('close')[0]
@@ -40,4 +31,12 @@ span.onclick=function(){
 }
 
 
-    
+
+const header = document.querySelector('.header')
+window.onscroll = () =>{
+    if(window.pageYOffset>50){
+        header.classList.add('header__acitve')
+    }
+    else{
+    header.classList.remove('header__acitve')
+    }}
