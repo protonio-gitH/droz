@@ -701,9 +701,17 @@ img{
 }
 .request__brifing-item{
     
-    position: relative;
+   
+   
+   
+    
     
 }
+.request__brifing-link{
+    background: url('../img/request-pointer.svg') no-repeat right center;
+    padding: 20px;
+}
+/* 
 .request__brifing-item::after{
     content: '';
     background-image: url('../img/request-pointer.svg');
@@ -711,9 +719,10 @@ img{
     height: 16px;
     position: absolute;
     top: 9px;
-    
-    
 }
+*/
+    
+
 
 .request__input{
     display: block;
