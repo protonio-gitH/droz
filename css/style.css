@@ -226,7 +226,8 @@ img{
 
 }
 .about__pointer{
-    margin-right: 25%;
+    position: absolute;
+    margin-right: 40%;
     
     
 }
