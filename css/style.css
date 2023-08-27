@@ -230,6 +230,45 @@ img{
     
     
 }
+@media screen and (max-width:1200px){
+    .about__pointer{
+        margin-right: 20%;
+        
+        
+    }
+}
+
+@media screen and (max-width:1024px){
+    .about__pointer{
+        margin-right: 35%;
+        
+        
+    }
+}
+@media screen and (max-width:700px){
+    .about__pointer{
+        margin-right: 30%;
+        
+        
+    }
+}
+
+@media screen and (max-width:500px){
+    .about__pointer{
+        margin-right: 20%;
+        
+        
+    }
+}
+@media screen and (max-width:400px){
+    .about__pointer{
+        margin-right: 15%;
+        
+        
+    }
+}
+
+
 .wrapper__about{
     max-width: 1244px;
     margin: 0 auto;
@@ -947,7 +986,7 @@ img{
     }
 }
 
-@media screen and (max-width:1026px){
+@media screen and (max-width:1025px){
      .about__title-whatsapp-smallscreen{
         display: block;
     }
